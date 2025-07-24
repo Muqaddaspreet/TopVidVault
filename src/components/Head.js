@@ -16,7 +16,7 @@ const Head = ({ searchQuery, setSearchQuery }) => {
 
   const inputRef = useRef(null);
 
-  const [tempQuery, setTempQuery] = useState([]);
+  const [tempQuery, setTempQuery] = useState([""]);
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
