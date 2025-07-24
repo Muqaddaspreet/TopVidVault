@@ -19,19 +19,19 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`fixed left-0 top-0 z-20 h-full w-60 bg-white shadow-lg transform transition-transform duration-300 ease-in-out p-2 px-4 pt-4 md:transition-none md:duration-0
+      className={`pt-20 fixed left-0 top-0 z-20 h-full w-60 bg-white shadow-lg transform transition-transform duration-300 ease-in-out p-2 px-4 md:transition-none md:duration-0
         ${
           isMenuOpen
-            ? "translate-x-0 left-0  md:h-[91vh] md:static"
+            ? "translate-x-0 left-0  md:h-[100vh] md:sticky"
             : "-translate-x-full"
         }
         md:translate-x-${isMenuOpen ? "0" : "-full"}
       `}
     >
-      <div className="md:hidden">
+      {/* <div className="md:hidden">
         {" "}
         <LogoContainer />
-      </div>
+      </div> */}
       <div className="h-[95%] overflow-y-auto">
         <ul>
           <li className="cursor-pointer flex px-2 py-2 rounded-lg hover:bg-gray-100 mt-2">

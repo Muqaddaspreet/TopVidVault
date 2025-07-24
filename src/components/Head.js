@@ -78,7 +78,7 @@ const Head = ({ searchQuery, setSearchQuery }) => {
   };
 
   return (
-    <div className="{/*shadow-lg*/} z-30">
+    <div className=" {/*shadow-lg*/} z-30 bg-white fixed w-full">
       <div className="grid grid-flow-col auto-cols-fr p-2 mx-2 mt-2">
         <LogoContainer />
         <div className="relative">

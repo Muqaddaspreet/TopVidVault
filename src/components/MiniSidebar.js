@@ -11,7 +11,7 @@ export default function MiniSidebar() {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
   return (
     <nav
-      className={`hidden md:flex md:flex-col md:w-20 md:h-[91vh] pt-4 md:sticky md:top-0 shadow-{/*[4px_0_6px_-1px_rgba(0,0,0,0.2)]*/} ${
+      className={`pt-20 hidden md:flex md:flex-col md:w-20 md:h-[91vh] md:sticky md:top-0 shadow-{/*[4px_0_6px_-1px_rgba(0,0,0,0.2)]*/} ${
         isMenuOpen ? "md:hidden" : ""
       }`}
     >
