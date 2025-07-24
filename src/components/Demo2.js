@@ -8,7 +8,7 @@ const Demo2 = () => {
   // Ref is not like ref = 0, but ref = { current:0}
 
   return (
-    <div className="m-2 p-4 border border-black w-96 h-96">
+    <div className="mt-20 mx-2 p-4 border border-black w-96 h-96">
       <div>
         <button
           className="my-4 p-2 bg-red-600 font-bold text-white"

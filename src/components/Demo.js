@@ -9,7 +9,7 @@ const Demo = () => {
   return (
     <div
       className={
-        "m-2 p-4 border border-black w-96 h-96 " +
+        "mt-20 mx-2 p-4 border border-black w-96 h-96 " +
         (isDarktheme && "bg-gray-900")
       }
     >

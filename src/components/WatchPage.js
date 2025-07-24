@@ -14,7 +14,7 @@ const WatchPage = () => {
     dispatch(closeMenu());
   }, [dispatch]);
   return (
-    <div className="w-full p-2 m-2">
+    <div className="mt-20 w-full p-2 m-2">
       <div className="aspect-video lg:flex w-full items-stretch lg:max-h-[522px]">
         <div className="w-full h-full lg:w-[70%]">
           <iframe
