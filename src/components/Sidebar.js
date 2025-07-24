@@ -11,7 +11,7 @@ import {
   MOVIES_ICON,
 } from "../Constants";
 import { useSelector } from "react-redux";
-import LogoContainer from "./LogoContainer";
+// import LogoContainer from "./LogoContainer";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
