@@ -92,7 +92,7 @@ const Head = ({ searchQuery, setSearchQuery }) => {
               onChange={(e) => setTempQuery(e.target.value)}
               onKeyDown={handleKeyDown}
               onFocus={() => setShowSuggestions(true)}
-              onBlur={() => setShowSuggestions(false)}
+              onBlur={() => setTimeout(() => setShowSuggestions(false), 100)}
             />
             <button
               className=" w-[75px] flex items-center justify-center"
