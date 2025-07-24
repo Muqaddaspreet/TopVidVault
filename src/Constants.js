@@ -5,7 +5,7 @@ export const YOUTUBE_VIDEOS_API =
   GOOGLE_API_KEY;
 
 export const YOUTUBE_SEARCH_API =
-  "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+  "https://corsproxy.io/?url=https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 export const HOME_ICON = (
   <svg
