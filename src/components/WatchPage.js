@@ -7,12 +7,12 @@ import LiveChat from "./LiveChat";
 
 const WatchPage = () => {
   const [searchParams] = useSearchParams();
-  console.log(searchParams.get("v"));
+  // console.log(searchParams.get("v"));
 
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(closeMenu());
-  }, []);
+  }, [dispatch]);
   return (
     <div className="w-full p-2 m-2">
       <div className="aspect-video lg:flex w-full items-stretch lg:max-h-[522px]">

@@ -42,7 +42,7 @@ const Head = ({ searchQuery, setSearchQuery }) => {
     return () => {
       clearTimeout(timer); // It's called on re-rendering of the component, while one is already in process.
     };
-  }, [tempQuery]);
+  }, [tempQuery, dispatch, searchCache]);
 
   /**
    * key - i

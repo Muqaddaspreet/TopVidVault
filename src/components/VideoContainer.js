@@ -45,7 +45,6 @@ const VideoContainer = ({ searchQuery }) => {
           <VideoCard info={video} />
         </Link>
       ))}{" "}
-      the
     </div>
   );
 };
