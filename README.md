@@ -93,13 +93,7 @@ REACT_APP_YT_API_KEY=<your key>
   - `search.list` (type=video) for suggestions / results
   - `videos.list` (chart=mostPopular) for “Top” feed
 - Respect YouTube API quotas; caching helps reduce calls.
-
-## ✅ Testing (optional)
-```bash
-npm test
-```
-- Add unit tests for reducers/selectors.
-- Write simple render tests for SearchBar, VideoCard, Chat.
+- 
 
 ## 🚢 Deployment
 https://mi-youtube.netlify.app/
